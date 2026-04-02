@@ -1,0 +1,19 @@
+{
+  "name": "sla-wizard-plugin-nginx-strip",
+  "version": "1.0.0",
+  "description": "Plugin that strips URL prefixes (x-nginx-strip) before proxying",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/tests.js && mocha --timeout 300000 ./tests/container.test.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "sla-wizard-nginx-confd": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sla-wizard": "^1.1.0",
+    "testcontainers": "^11.13.0"
+  }
+}
